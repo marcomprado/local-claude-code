@@ -86,7 +86,7 @@ Any server that exposes an OpenAI-compatible `/v1/chat/completions` endpoint sho
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! Feel free to open issues or submit pull requests. Follow me on Github
 
 ## License
 
