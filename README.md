@@ -90,4 +90,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests. Fol
 
 ## License
 
-This project was made by Marco Martinelli, it is open source and available under the [MIT License](LICENSE).
+This project was made by Marco Martinelli, inspired by [alex ziskind](https://github.com/alexziskind1) latest [video](https://www.youtube.com/watch?v=Cyn_Dm05_eU&t=640s) about it. This is an open source project and its available under the [MIT License](LICENSE).
