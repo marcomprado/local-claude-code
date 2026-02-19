@@ -35,68 +35,30 @@ cd local-claude-code
 
 ### What the installer does
 
-The script walks you through three quick steps:
+> **Step 1** — Checks if Claude Code is installed. If not, offers to install it for you.
+>
+> **Step 2** — Asks for your **server URL**, **API key** (optional), and **model name**.
+>
+> **Step 3** — Generates the config at `~/.claude/localllm.json` and sets up a `local-claude` launch command (shell alias, launcher script, or skip).
 
-```
-============================================
-   local-claude installer
-   Use Claude Code with any LLM server
-============================================
-
-Checking prerequisites...
-  [ok] ~/.claude/ directory found
-
-[1/3] LLM Server URL
-> Server URL [http://localhost:1234]: http://192.168.1.100:8080
-
-[2/3] API Key (optional)
-> API Key:
-
-[3/3] Model Name
-> Model name [default_model]: llama3
-
-Generating config...
-  [ok] Written to ~/.claude/localllm.json
-
-How would you like to launch local-claude?
-  [1] Shell alias (adds 'local-claude' to your shell config)
-  [2] Launcher script (~/.local/bin/local-claude)
-  [3] Skip (I'll run it manually)
-> Choice [1]: 1
-
-  [ok] Alias added to ~/.zshrc
-
-============================================
-  Installation complete!
-  Run 'local-claude' to start.
-============================================
-```
-
-After installation, start a session with:
+After installation, just run:
 
 ```bash
 local-claude
 ```
 
-Or, if you skipped the launcher setup:
-
-```bash
-claude --settings ~/.claude/localllm.json
-```
+---
 
 ## Uninstall
 
-Remove the config file, shell alias, and launcher script in one command:
+> Remove **everything** — config file, shell alias, and launcher script — in one command.
 
-```bash
-bash install.sh --uninstall
-```
+| Platform | Command |
+|----------|---------|
+| Mac / Linux / WSL | `bash install.sh --uninstall` |
+| PowerShell | `.\installps.ps1 -Uninstall` |
 
-PowerShell:
-
-```powershell
-.\installps.ps1 -Uninstall
-```
+---
 
 ## How it works
 
