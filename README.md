@@ -53,10 +53,17 @@ local-claude
 
 > Remove **everything** — config file, shell alias, and launcher script — in one command.
 
-| Platform | Command |
-|----------|---------|
-| Mac / Linux / WSL | `bash install.sh --uninstall` |
-| PowerShell | `.\installps.ps1 -Uninstall` |
+**Mac / Linux / WSL:**
+
+```bash
+bash install.sh --uninstall
+```
+
+**PowerShell:**
+
+```powershell
+.\installps.ps1 -Uninstall
+```
 
 ---
 
